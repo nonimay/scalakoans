@@ -1,0 +1,170 @@
+[0m[[0minfo[0m] [0m[32mKoans:[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutAsserts:[0m[0m
+[0m[[0minfo[0m] [0m[32m- asserts can take a boolean argument[0m[0m
+[0m[[0minfo[0m] [0m[32m- asserts can include a message[0m[0m
+[0m[[0minfo[0m] [0m[32m- true and false values can be compared with should matchers[0m[0m
+[0m[[0minfo[0m] [0m[32m- booleans in asserts can test equality[0m[0m
+[0m[[0minfo[0m] [0m[32m- sometimes we expect you to fill in the values[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutValAndVar:[0m[0m
+[0m[[0minfo[0m] [0m[32m- vars may be reassigned[0m[0m
+[0m[[0minfo[0m] [0m[32m- vals may not be reassigned[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutClasses:[0m[0m
+[0m[[0minfo[0m] [0m[32m- val parameters in class definition define getter[0m[0m
+[0m[[0minfo[0m] [0m[32m- var parameters in class definition define getter and setter[0m[0m
+[0m[[0minfo[0m] [0m[32m- fields defined internally are private to class[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutOptions:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Option can have one of two values - Some or None[0m[0m
+[0m[[0minfo[0m] [0m[32m- Represent null with None because null is a bad idea[0m[0m
+[0m[[0minfo[0m] [0m[32m- Provide a default value for None[0m[0m
+[0m[[0minfo[0m] [0m[32m- checking whether option has value[0m[0m
+[0m[[0minfo[0m] [0m[32m- Option can also be used with pattern matching[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutObjects:[0m[0m
+[0m[[0minfo[0m] [0m[32m- An object is a singleton. One object -- that's it. This object is a replacement of static in Java,[0m[0m
+[0m[[0minfo[0m] [0m[32m and is called upon much in the same way[0m[0m
+[0m[[0minfo[0m] [0m[32m- Here is proof an object is a singleton, and not a static method in a class[0m[0m
+[0m[[0minfo[0m] [0m[32m- An object that has the same name as class is called a companion object,[0m[0m
+[0m[[0minfo[0m] [0m[32m it is used to contain factories for the class that it complements[0m[0m
+[0m[[0minfo[0m] [0m[32m- A companion object stores shared variables and values for every instantiated class to share.[0m[0m
+[0m[[0minfo[0m] [0m[32m (See SecretAgent class and companion object above).[0m[0m
+[0m[[0minfo[0m] [0m[32m- A companion object can also see private values and variables of the instantiated objects[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutTuples:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Tuples can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Tuple items may be accessed individually[0m[0m
+[0m[[0minfo[0m] [0m[32m- Tuples may be of mixed type[0m[0m
+[0m[[0minfo[0m] [0m[32m- Tuples items can be swapped on a Tuple 2[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutHigherOrderFunctions:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Meet lambda. Anonymous function[0m[0m
+[0m[[0minfo[0m] [0m[32m- An anonymous function can also take on a different look by taking out the brackets[0m[0m
+[0m[[0minfo[0m] [0m[32m- Meet closure. Closure is any function that closes over the environment[0m[0m
+[0m[[0minfo[0m] [0m[32m- We can take that closure and throw into a method and it will still hold the environment[0m[0m
+[0m[[0minfo[0m] [0m[32m- function returning another function[0m[0m
+[0m[[0minfo[0m] [0m[32m- function returning another function using an anonymous function[0m[0m
+[0m[[0minfo[0m] [0m[32m- isInstanceOf is the same as instanceof in java, but in this case the parameter types can be[0m[0m
+[0m[[0minfo[0m] [0m[32m 'blanked out' using existential types with is a single underline, since parameter type are unknown[0m[0m
+[0m[[0minfo[0m] [0m[32m at runtime.[0m[0m
+[0m[[0minfo[0m] [0m[32m- function taking another function as parameter. Helps in composing functions.[0m[0m
+[0m[[0minfo[0m] [0m[32m Hint: a map method applies the function to each element of a list[0m[0m
+[0m[[0minfo[0m] [0m[32m- Currying is a technique to transform function with multiple parameters to function with one parameter[0m[0m
+[0m[[0minfo[0m] [0m[32m- Currying allows you to create specialized version of generalized function[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutLists:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Eq tests identity (same object)[0m[0m
+[0m[[0minfo[0m] [0m[32m- == tests equality (same content)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Nil lists are identical, even of different types[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists are easily created[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can be accessed via head and tail[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can accessed by position[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists are immutable[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists have many useful methods[0m[0m
+[0m[[0minfo[0m] [0m[32m- Functions over lists can use _ as shorthand[0m[0m
+[0m[[0minfo[0m] [0m[32m- Functions over lists can use () instead of {}[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists can be 'reduced' with a mathematical operation[0m[0m
+[0m[[0minfo[0m] [0m[32m- Foldleft is like reduce, but with an explicit starting value[0m[0m
+[0m[[0minfo[0m] [0m[32m- You can create a list from a range[0m[0m
+[0m[[0minfo[0m] [0m[32m- Lists reuse their tails[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutMaps:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps contain distinct pairings[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps can be added to easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map values can be iterated[0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps insertion with duplicate key updates previous entry with subsequent value[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map keys may be of mixed type[0m[0m
+[0m[[0minfo[0m] [0m[32m- Mixed type values can be added to a map [0m[0m
+[0m[[0minfo[0m] [0m[32m- Maps may be accessed[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Accessing a map by key results in an exception if key is not found[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed in multiple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map elements can be removed with a tuple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Attempted removal of nonexistent elements from a map is handled gracefully[0m[0m
+[0m[[0minfo[0m] [0m[32m- Map equivalency is independent of order[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutSets:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets can be created easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets contain distinct values[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets can be added to easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets may be of mixed type[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets can be checked for member existence[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set elements can be removed easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set elements can be removed in multiple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set elements can be removed with a tuple[0m[0m
+[0m[[0minfo[0m] [0m[32m- Attempted removal of nonexistent elements from a set is handled gracefully[0m[0m
+[0m[[0minfo[0m] [0m[32m- Sets can be iterated easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Two sets can be intersected easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Two sets can be joined as their union easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- A set is either a subset of another set or it isn't[0m[0m
+[0m[[0minfo[0m] [0m[32m- The difference between two sets can be obtained easily[0m[0m
+[0m[[0minfo[0m] [0m[32m- Set equivalency is independent of order[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutFormatting:[0m[0m
+[0m[[0minfo[0m] [0m[32m- String can be placed in format[0m[0m
+[0m[[0minfo[0m] [0m[32m- Character Literals can be an a single character[0m[0m
+[0m[[0minfo[0m] [0m[32m- Character Literals can be an escape sequence, including octal or hexidecimal[0m[0m
+[0m[[0minfo[0m] [0m[32m- Formatting can also include numbers[0m[0m
+[0m[[0minfo[0m] [0m[32m- Formatting can be used for any number of items, like a string and a number[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutPatternMatching:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching returns something[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can return complex somethings[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can match complex expressions[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can wildcard parts of expressions[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can substitute parts of expressions[0m[0m
+[0m[[0minfo[0m] [0m[32m- Pattern matching can done on regular expression groups[0m[0m
+[0m[[0minfo[0m] [0m[32m- A backquote can be used to refer to a stable variable in scope to create a case statement.[0m[0m
+[0m[[0minfo[0m] [0m[32m This prevents what is called \'Variable Shadowing\'[0m[0m
+[0m[[0minfo[0m] [0m[32m- A backquote can be used to refer to a method parameter as a stable variable to create a case statement.[0m[0m
+[0m[[0minfo[0m] [0m[32m- To pattern match against a List, the list can be broken out into parts,[0m[0m
+[0m[[0minfo[0m] [0m[32m in this case the head (x) and the tail(xs). Since the case doesn't terminate in Nil,[0m[0m
+[0m[[0minfo[0m] [0m[32m xs is interpreted as the rest of the list[0m[0m
+[0m[[0minfo[0m] [0m[32m- To obtain the second you can expand on the pattern. Where x is the first element, y[0m[0m
+[0m[[0minfo[0m] [0m[32m is the second element, and xs is the rest. [0m[0m
+[0m[[0minfo[0m] [0m[32m- Same koan as above, but we are pattern matching of a list with only one item![0m[0m
+[0m[[0minfo[0m] [0m[32m- To pattern match against List, you can also establish a pattern match[0m[0m
+[0m[[0minfo[0m] [0m[32m if you know the exact number of elements in a List[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutCaseClasses:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case classes have an automatic equals method that works[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case classes have an automatic hashcode method that works[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case classes have a convenient way they can be created[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case classes have a convenient toString method defined[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case classes have automatic properties[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case classes can have mutable properties[0m[0m
+[0m[[0minfo[0m] [0m[32m- Safer alternatives exist for altering case classes[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case classes have default and named parameters[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case classes can be disassembled to their constituent parts as a tuple[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutRange:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Range are not inclusive at end of range[0m[0m
+[0m[[0minfo[0m] [0m[32m- Range can specify a step for an increment[0m[0m
+[0m[[0minfo[0m] [0m[32m- Range does not include the last item, even in a step increment[0m[0m
+[0m[[0minfo[0m] [0m[32m- Range can specify to include the last value[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutPartiallyAppliedFunctions:[0m[0m
+[0m[[0minfo[0m] [0m[32m- A partially applied function is a function that you do not apply any or all the[0m[0m
+[0m[[0minfo[0m] [0m[32m arguments, creating another function. This partially applied function[0m[0m
+[0m[[0minfo[0m] [0m[32m doesn't apply any arguments[0m[0m
+[0m[[0minfo[0m] [0m[32m- Partially applied functions can replace any number of arguments[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutPartialFunctions:[0m[0m
+[0m[[0minfo[0m] [0m[32m- A partial function is a trait that when[0m[0m
+[0m[[0minfo[0m] [0m[32m implemented can be used as building blocks to determine[0m[0m
+[0m[[0minfo[0m] [0m[32m a solution.  The trait PartialFunction requires that the[0m[0m
+[0m[[0minfo[0m] [0m[32m the method isDefinedAt and apply be implemented.[0m[0m
+[0m[[0minfo[0m] [0m[32m- Case statements are a quick way to create partial functions. When you create a case[0m[0m
+[0m[[0minfo[0m] [0m[32m statement, the apply and isDefinedAt is created for you.[0m[0m
+[0m[[0minfo[0m] [0m[32m- The result of partial functions can have an \'andThen\' function added to the end[0m[0m
+[0m[[0minfo[0m] [0m[32m of the chain[0m[0m
+[0m[[0minfo[0m] [0m[32m- The result of partial functions can have an \'andThen\' function added to the end[0m[0m
+[0m[[0minfo[0m] [0m[32m of the chain used to continue onto another chain of logic[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutImplicits:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Implicits wrap around existing classes to provide extra functionality[0m[0m
+[0m[[0minfo[0m] [0m[32m   This is similar to \'monkey patching\' in Ruby, and Meta-Programming in Groovy.[0m[0m
+[0m[[0minfo[0m] [0m[32m   Creating a method isOdd for Int, which doesn't exist[0m[0m
+[0m[[0minfo[0m] [0m[32m- Implicits rules can be imported into your scope with an import[0m[0m
+[0m[[0minfo[0m] [0m[32m- Implicits can be used to automatically convert one type to another[0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Implicits can be used declare a value to be provided as a default as[0m[0m
+[0m[[0minfo[0m] [0m[33m   long as an implicit value is set with in the scope.  These are[0m[0m
+[0m[[0minfo[0m] [0m[33m   called implicit function parameters" of suite "AboutImplicits" [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  +  [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutImplicits[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
