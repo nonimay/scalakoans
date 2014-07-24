@@ -159,16 +159,25 @@
 [0m[[0minfo[0m] [0m[32m- Implicit Function Parameters can contain a list of implicits[0m[0m
 [0m[[0minfo[0m] [0m[32m- Default arguments though are preferred to Implicit Function Parameters[0m[0m
 [0m[[0minfo[0m] [0m[32mAboutTraits:[0m[0m
+[0m[[0minfo[0m] [0m[32m- A class uses the extends keyword to mixin a trait if it is the only relationship the class inherits[0m[0m
+[0m[[0minfo[0m] [0m[32m- A class can only 'extend' from one class or trait, any subsequent extension should use the keyword 'with'[0m[0m
+[0m[[0minfo[0m] [0m[32m- Traits are polymorphic. Any type can be referred to by another type if related by extension[0m[0m
+[0m[[0minfo[0m] [0m[32m- Traits can have concrete implementations that can be mixed into concrete classes with it's own state[0m[0m
+[0m[[0minfo[0m] [0m[32m- Traits are instantiated before a classes instantiation[0m[0m
+[0m[[0minfo[0m] [0m[32m- Traits are instantiated before a classes instantiation from left to right[0m[0m
+[0m[[0minfo[0m] [0m[32m- Instantiations are tracked and will not allow a duplicate instantiation. Note T1 extends T2, and C1 also extends T2, but T2 is only instantiated once.[0m[0m
+[0m[[0minfo[0m] [0m[32m- The diamond of death (http://en.wikipedia.org/wiki/Diamond_problem) is avoided since instantiations are tracked and will not allow multiple instantiations[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutForExpressions:[0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
-[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "A class uses the extends keyword to mixin a trait if it is the only relationship the class inherits" of suite "AboutTraits" [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "For loops can be simple" of suite "AboutForExpressions" [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32mInfo Provided - AboutTraits[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutForExpressions[0m[0m
 [0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
