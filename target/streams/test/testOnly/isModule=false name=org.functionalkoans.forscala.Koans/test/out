@@ -168,16 +168,37 @@
 [0m[[0minfo[0m] [0m[32m- Instantiations are tracked and will not allow a duplicate instantiation. Note T1 extends T2, and C1 also extends T2, but T2 is only instantiated once.[0m[0m
 [0m[[0minfo[0m] [0m[32m- The diamond of death (http://en.wikipedia.org/wiki/Diamond_problem) is avoided since instantiations are tracked and will not allow multiple instantiations[0m[0m
 [0m[[0minfo[0m] [0m[32mAboutForExpressions:[0m[0m
+[0m[[0minfo[0m] [0m[32m- For loops can be simple[0m[0m
+[0m[[0minfo[0m] [0m[32m- For loops can contain additional logic[0m[0m
+[0m[[0minfo[0m] [0m[32m- For expressions can nest, with later generators varying more rapidly than earlier ones[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutInfixPrefixAndPostfixOperators:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Simple: Infix Operators are available if an object[0m[0m
+[0m[[0minfo[0m] [0m[32m  has a method that takes one parameter.[0m[0m
+[0m[[0minfo[0m] [0m[32m- Infix Operators do NOT work if an object[0m[0m
+[0m[[0minfo[0m] [0m[32m  has a method that takes two parameters.[0m[0m
+[0m[[0minfo[0m] [0m[32m- Postfix operators work if an object[0m[0m
+[0m[[0minfo[0m] [0m[32m  has a method that takes no parameters.[0m[0m
+[0m[[0minfo[0m] [0m[32m- Prefix operators work if an object[0m[0m
+[0m[[0minfo[0m] [0m[32m  has a method name that starts with unary_ .[0m[0m
+[0m[[0minfo[0m] [0m[32m- Here we create our own prefix operator for our own class.[0m[0m
+[0m[[0minfo[0m] [0m[32m   The only identifiers that can be used as prefix operators[0m[0m
+[0m[[0minfo[0m] [0m[32m   are +, -, !, and ~[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutInfixTypes:[0m[0m
+[0m[[0minfo[0m] [0m[32m- We can make a type infix, meaning that the type can be displayed in complement[0m[0m
+[0m[[0minfo[0m] [0m[32m           between two types in order to make a readable delaration[0m[0m
+[0m[[0minfo[0m] [0m[32m- Of course we can make this a bit more elegant by creating an infix operator[0m[0m
+[0m[[0minfo[0m] [0m[32m  method to use with our infix type[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutMutableMaps:[0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
-[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "For loops can be simple" of suite "AboutForExpressions" [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Mutable maps can be created easily" of suite "AboutMutableMaps" [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32mInfo Provided - AboutForExpressions[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutMutableMaps[0m[0m
 [0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
