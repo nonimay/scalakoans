@@ -153,18 +153,22 @@
 [0m[[0minfo[0m] [0m[32m   Creating a method isOdd for Int, which doesn't exist[0m[0m
 [0m[[0minfo[0m] [0m[32m- Implicits rules can be imported into your scope with an import[0m[0m
 [0m[[0minfo[0m] [0m[32m- Implicits can be used to automatically convert one type to another[0m[0m
+[0m[[0minfo[0m] [0m[32m- Implicits can be used declare a value to be provided as a default as[0m[0m
+[0m[[0minfo[0m] [0m[32m   long as an implicit value is set with in the scope.  These are[0m[0m
+[0m[[0minfo[0m] [0m[32m   called implicit function parameters[0m[0m
+[0m[[0minfo[0m] [0m[32m- Implicit Function Parameters can contain a list of implicits[0m[0m
+[0m[[0minfo[0m] [0m[32m- Default arguments though are preferred to Implicit Function Parameters[0m[0m
+[0m[[0minfo[0m] [0m[32mAboutTraits:[0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
-[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "Implicits can be used declare a value to be provided as a default as[0m[0m
-[0m[[0minfo[0m] [0m[33m   long as an implicit value is set with in the scope.  These are[0m[0m
-[0m[[0minfo[0m] [0m[33m   called implicit function parameters" of suite "AboutImplicits" [0m[0m
+[0m[[0minfo[0m] [0m[33m  + Please meditate on koan "A class uses the extends keyword to mixin a trait if it is the only relationship the class inherits" of suite "AboutTraits" [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  +  [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
 [0m[[0minfo[0m] [0m[33m  + ***************************************** [0m[0m
-[0m[[0minfo[0m] [0m[32mInfo Provided - AboutImplicits[0m[0m
+[0m[[0minfo[0m] [0m[32mInfo Provided - AboutTraits[0m[0m
 [0m[[0minfo[0m] [0m[32mInfo Provided - Koans[0m[0m
